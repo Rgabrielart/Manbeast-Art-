@@ -96,5 +96,30 @@ footer {
   resize: both;
   overflow: auto;
 }
+html,body { height:100%; }
+.header {
+  border: 2px solid;
+  padding: 20px; 
+  width: 750px;
+	height: 700px
+  
+}
+body {background-color: coral;}
+header{background-color: aqua}
+.leftnav{background-color:red}
+.header{background-color:orange}
+h1{
+	text-align: center;
+	background-color: aquamarine;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#center {
+    width: 500px;
+    margin: 0 auto;
+}
 
 
