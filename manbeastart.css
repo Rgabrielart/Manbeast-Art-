@@ -71,3 +71,30 @@ div:not(.parent){
   padding: 10px;
   background: rgb(199,199,199);
 }
+
+ 
+header {
+  border: 2px solid;
+  padding: 20px; 
+  width: 1600px;
+  resize: both;
+  overflow: auto;
+	height: 80px;
+} 
+.header {
+  border: 2px solid;
+  padding: 20px; 
+ height: 400px;
+  resize: both;
+  overflow: auto;
+}
+
+footer {
+  border: 2px solid;
+  padding: 20px; 
+  width: 1600px;
+  resize: both;
+  overflow: auto;
+}
+
+
