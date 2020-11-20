@@ -121,5 +121,18 @@ footer {
     width: 500px;
     margin: 0 auto;
 }
+.header{
+  font-family: Impact, Charcoal, sans-serif;
+}
 
+.footer{
+  font-family: Impact, Charcoal, sans-serif;
+}
 
+@media only screen and (min-width: 768px) {
+	.container {
+		width:100%;
+		padding-bottom: 30px;}
+	
+	
+	
