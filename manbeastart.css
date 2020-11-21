@@ -113,9 +113,11 @@ h1{
 	background-color: aquamarine;
 }
 footer {
-    position: fixed;
+    position:fixed;
     bottom: 0;
     width: 100%;
+	align-content: center;
+	
 }
 #center {
     width: 500px;
@@ -129,6 +131,28 @@ footer {
   font-family: Impact, Charcoal, sans-serif;
 }
 
+p{
+	background-color: aqua;
+	font-style: bold,italic;
+}
+.header{
+	font-style: Impact, Charcoal, sans-serif;
+}
+.container{
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+}
+.leftnave{
+	display: flex;
+	padding: 0px;
+	margin-left: -15px;
+}
+body{padding: 0px;
+margin:0px;}
+.header{
+	background-color: #CB6F1E;
+}
 @media only screen and (min-width: 768px) {
 	.container {
 		width:100%;
