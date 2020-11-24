@@ -123,12 +123,14 @@ footer {
     width: 500px;
     margin: 0 auto;
 }
-.header{
+div.header{
   font-family: Impact, Charcoal, sans-serif;
+	background-color: #AD6A15;
 }
 
-.footer{
+div.footer{
   font-family: Impact, Charcoal, sans-serif;
+	background-color: #AD6A15;
 }
 
 p{
@@ -157,9 +159,13 @@ margin:0px;}
 	background-color: aquamarine;
 }
 
-iframe{
+.parent{
 	justify-content: center;
 }
+leftnave{
+	align-content: center;
+}
+.parent{background-color: aqua;}
 @media only screen and (min-width: 768px) {
 	.container {
 		width:100%;
