@@ -141,14 +141,39 @@ p{
 	font-style: Impact, Charcoal, sans-serif;
 }
 .container{
-	display: flex;
+	display: flex grid;
 	flex-wrap: nowrap;
 	flex-direction: row;
+	vertical-align: baseline;
 }
-.leftnave{
-	display: flex;
-	padding: 0px;
-	margin-left: -15px;
+div .container {
+	width: 80%;
+	margin: 0 auto;
+	padding: 20px;
+	background:#f0e68c;
+}
+div .container {
+	
+		vertical-align: center;
+	line-height: 20px;
+}
+div .pic .one {
+	display:block;
+	
+		vertical-align: center;
+	line-height: 20px;
+}
+div .pic .twon{
+	display:block;
+	
+		vertical-align: center;
+	line-height: 20px;
+}
+div .pic .three {
+	display:block;
+	text-align: end;
+		vertical-align: bottom;
+	line-height: 20px;
 }
 body{padding: 0px;
 margin:0px;}
@@ -169,7 +194,7 @@ leftnave{
 @media only screen and (min-width: 768px) {
 	.container {
 		width:100%;
-		padding-bottom: 30px;}
-	
+		padding-bottom: 30px;
+	}
 	
 	
