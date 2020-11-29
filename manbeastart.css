@@ -175,14 +175,7 @@ div .pic .three {
 		vertical-align: bottom;
 	line-height: 20px;
 }
-body{padding: 0px;
-margin:0px;}
-.header{
-	background-color: #CB6F1E;
-}
-.form{
-	background-color: aquamarine;
-}
+
 
 .parent{
 	justify-content: center;
@@ -190,7 +183,7 @@ margin:0px;}
 leftnave{
 	align-content: center;
 }
-.parent{background-color: aqua;}
+
 @media only screen and (min-width: 768px) {
 	.container {
 		display: block;
