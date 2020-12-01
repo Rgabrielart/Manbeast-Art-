@@ -90,11 +90,10 @@ header {
 }
 
 footer {
-  border: 2px solid;
-  padding: 20px; 
-  width: 1600px;
-  resize: both;
-  overflow: auto;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+	align-content: center;
 }
 html,body { height:100%; }
 .header {
@@ -147,8 +146,20 @@ p{
 	vertical-align: baseline;
 }
 
-
-
+.footer {
+-moz-transform: scale(1.1) translate(50px, 16px);
+-webkit-transform: scale(1.1) translate(50px, 16px);
+-o-transform: scale(1.1) translate(50px, 16px);
+-ms-transform: scale(1.1) translate(50px, 16px);
+transform: scale(1.1) translate(50px, 16px);
+}
+div .parent {
+-moz-transform: scale(0.6) translate(0px, 35px);
+-webkit-transform: scale(0.6) translate(0px, 35px);
+-o-transform: scale(0.6) translate(0px, 35px);
+-ms-transform: scale(0.6) translate(0px, 35px);
+transform: scale(0.6) translate(0px, 35px);
+}
 
 div .header{
 	float:left;
