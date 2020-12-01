@@ -146,42 +146,19 @@ p{
 	flex-direction: row;
 	vertical-align: baseline;
 }
-div .container {
-	width: 80%;
-	margin: 0 auto;
-	padding: 20px;
-	background:#f0e68c;
-}
-div .container {
-	
-		vertical-align: center;
-	line-height: 20px;
-}
-div .pic .one {
-	display:block;
-	
-		vertical-align: center;
-	line-height: 20px;
-}
-div .pic .twon{
-	display:block;
-	
-		vertical-align: center;
-	line-height: 20px;
-}
-div .pic .three {
-	display:block;
-	text-align: end;
-		vertical-align: bottom;
-	line-height: 20px;
-}
 
 
-.parent{
-	justify-content: center;
+
+
+div .header{
+	float:left;
+	margin: 0 1.5%;
+	width:85%;
 }
-leftnave{
-	align-content: center;
+div .leftnave {
+	float: right;
+	
+	width: 200;
 }
 
 @media only screen and (min-width: 768px) {
